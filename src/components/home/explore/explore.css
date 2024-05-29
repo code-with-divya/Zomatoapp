@@ -1,0 +1,35 @@
+.exploremain{
+    margin: auto;
+    width: fit-content;
+}
+.exploreh{
+    margin:1.5rem 0px 1rem;
+    color: rgb(54, 54, 54);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.explorediv{
+    
+    display: flex;
+    justify-content:space-between;
+    border: 1px solid grey;
+    width:1000px;
+    align-items: center;
+    border-radius: 10px;
+    margin:0 0  20px 0;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+.explorediv p{
+    font-weight: 400;
+    color: rgb(28, 28, 28);
+    font-size: 1.5rem;;
+    line-height: 26px
+}
+
+.exploreimg{
+    height: 20px;
+    width: 20px;
+}

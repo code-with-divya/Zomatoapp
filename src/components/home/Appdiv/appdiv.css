@@ -1,0 +1,84 @@
+.appmain{
+    display: flex;
+    justify-content: center;
+}
+
+.populardiv{
+    display: flex;
+}
+.mobile{
+    height: 400px;
+}
+.apph{
+    font-size: 20pt;
+    margin:20px 0 10px 0;
+}
+.apppara{
+    font-size: 15pt;
+    margin: 10px 0;
+}
+
+.radiodiv{
+    margin: 15px 0; 
+}
+.radiodiv label{
+    margin-right: 20px;
+}
+.radiodiv input{
+    margin-right: 6px;
+}
+
+.rtext{
+    font-size: 14pt;
+}
+
+.inputdiv{
+	display: flex;
+	gap: 0.6rem;
+	flex-wrap: wrap;
+}
+
+.inputdiv button, .inputdiv input{
+	padding: 10px 12px;
+}
+
+.inputdiv input{
+    font-size: 20px;
+	flex: auto;
+	border: 1.5px solid gray;
+	border-radius: 5px;
+	outline: none;
+    height: 20px;
+    width: 150px;
+}
+
+.inputdiv button{
+	border: none;
+	border-radius: 5px;
+	color: white;
+	background: rgb(239,79,95); 
+	cursor: pointer;
+}
+
+.inputdiv button:hover{
+	background: red;
+}
+
+
+.divapp{
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.apppara{
+    margin-top: 20px;
+    font-size: 13pt;
+    margin: 10px 15px 0 0;
+}
+
+.appimg{
+width: 140px;
+height: 40px;
+margin:5px 20px 0 0 ;
+}

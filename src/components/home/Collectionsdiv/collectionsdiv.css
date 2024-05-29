@@ -1,0 +1,71 @@
+
+.collectiondiv{
+    padding: 0 6.5rem;
+}
+.collectionsp{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14pt;
+    margin: 15px 0;
+}
+.collectionHead{
+    margin-top: 3rem;
+}
+.collectionHead h2{
+    font-size: 20pt;
+}
+
+.rarrow{
+    height: 14px;
+    width: 14px;
+}
+
+.collCards{
+    padding: 0px 6.5rem;
+    display: flex;
+    justify-content: center;
+    margin:0 10px;
+}
+
+.cards4{
+    
+	height: 320px;
+	min-width: 270px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 9px;
+	position: relative;
+    margin:0 10px ;
+
+    
+} 
+
+
+.card1{
+    background-image: url('./img/trendingspots.avif');
+}
+
+.card2{
+    background-image: url('./img/livescreenings.avif');
+}
+.card3{
+    background-image: url('./img/newlyopened.avif');
+}
+.card4{
+    background-image: url('./img/rooftope.avif');
+}
+
+.cardcontent{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        color: white;
+        padding-left: 8px;
+        padding-bottom: 12px;
+        font-size: 0.9rem;
+        z-index: 6;  
+}
+.cardcontent p,h6{
+    font-size:15pt;
+}
+

@@ -1,0 +1,49 @@
+/* Cards section */
+
+.container_cards{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.div3{
+	width: 350px;
+	height: 240px;
+	border-radius: 10px;
+	overflow: hidden;
+	margin: 0 15px 0 0;
+	font-size: 1.6rem;
+	box-sizing: border-box;
+	border: 1px solid lightgray;
+}
+
+.div3:hover{
+	transition: 0.2s ;
+	transform: scale(1.01);
+	border: 1px solid grey;
+	cursor: pointer;
+}
+
+.div3img{
+	width: 100%;
+	height: 160px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.divcontent{
+	padding: 5px 20px 16px 20px;
+}
+
+.divcontent h5{
+	font-family: Okra, Helvetica, sans-serif;
+	text-align: left;
+	margin-bottom: 10px;
+	font-weight: 200;
+}
+
+.divcontent p{
+	font-size: 15px;
+	font-weight: 400;	
+	color: grey;
+}

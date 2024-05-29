@@ -1,0 +1,35 @@
+.poplursection{
+    margin-top:2rem ;
+    margin-bottom: 10rem;
+    padding: 0 6.5rem;
+}
+.Pophead{
+    
+    font-size:25pt ;
+    margin:20px 0;
+    }
+
+.divbox{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.populardiv{
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:15px;
+    box-sizing: border-box;
+    box-shadow: rgba(28, 28, 28, 0.50) 0px 1.42623px 2.85246px;
+}
+
+#parrow{
+    height: 20px;
+    width: 20px;
+}
+.divpcontent h6{
+    margin-bottom: 8px;
+}
