@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 import ReactDOM from 'react-dom/client';
-import background from './image/background.webp';
+import background from './../addrestaurant/image/background.webp';
 function Header() {
 
   return (

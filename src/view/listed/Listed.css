@@ -38,15 +38,16 @@
     border-radius: 4px;
     background-color: #f1f1f1;
   }
-  .simple{
+  .rest{
             text-align: center;
-            margin-top: 10px;
+            padding: 10px;
+            font-size: 30px;
             
   }
   .simples{
 
         text-align: center;
-        color: #777;
+        color: #777474;
         font-size: 20px;
         padding: 10px;
         /* margin-top: -5px; */

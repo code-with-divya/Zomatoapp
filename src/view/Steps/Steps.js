@@ -11,7 +11,7 @@ function Work({ title, subtitle, }) {
         <>
          
             <div className='container'>
-            <h1 className='work'>How it Work ?</h1>  
+            <h1 className='loads'>How it Work ?</h1>  
               
 
                 <div className='big'>
