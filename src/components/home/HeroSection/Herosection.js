@@ -1,7 +1,7 @@
 import './Herosection.css'
 import Zomatologo from './img/Zomatologo.avif'
 
-function Herosection(){
+function Herosection(images){
     return(
         <>
         <section class = "hero__section">
@@ -18,7 +18,7 @@ function Herosection(){
 				</nav>
 			</header>
 			<div class = "hero__section_container">
-				<img src ={Zomatologo} alt = "Zomato Logo" class = "hero__section_logo" />
+				<img src ={images.logo} alt = "Zomato Logo" class = "hero__section_logo" />
 				<h1 class = "hero__section_heading">Discover the best food & drinks in Pune</h1>
 				<div class = "hero__section_container_input">
 					<i class="fa-sharp fa-solid fa-location-dot" id = "location_icon"></i>
