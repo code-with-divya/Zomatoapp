@@ -22,10 +22,10 @@ export function Signup(props){
 
                    <img alt={props} src={google} className='googleimg'/>
 
-                    <a href="./Login2.js" className='email'> Sign in with Google</a>
+                    <a href="#" className='email'> Sign in with Google</a>
                 </div>
 
-                <p className='paragraph3'>Already have an account? <a href='./Login.js' className='create3'> Login</a></p>
+                <p className='paragraph3'>Already have an account? <a href='/Login' className='create3'> Login</a></p>
 
             </div>
 

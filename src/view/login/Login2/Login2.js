@@ -16,7 +16,7 @@ export function Login2(props){
 
                 <button type='submit' className='btn2'>Send One Time Password</button><br/>
 
-                <p className='paragraph2'>Already have an account? <a href='./Login.js' className='create2'> Login</a></p>
+                <p className='paragraph2'>Already have an account? <a href='/login' className='create2'> Login</a></p>
 
 
             </div>
