@@ -37,7 +37,7 @@ export function Login(props){
           <div className='mailbox'>
             <img alt={props} src={mail} className='mailimg'/>
 
-            <a href="./Login2.js" className='email'> Continue With Email</a>
+            <a href="/login" className='email'> Continue With Email</a>
           </div>
 
            <b></b>
@@ -46,12 +46,12 @@ export function Login(props){
          
             <img alt={props} src={google} className='googleimg'/>
 
-            <a href="./signin.js" className='email signgoogle'> Sign in with Google</a>
+            <a href="#" className='email signgoogle'> Sign in with Google</a>
           
          </div>
 
 
-         <p className='paragraph'>New to Zomato? <a href='./login2' className='create'> Create account</a></p>
+         <p className='paragraph'>New to Zomato? <a href='/signup' className='create'> Create account</a></p>
         
           {/* <input type='text'  placeholder="Enter your Full Name here" className={'inputBox'}/><br/>
           <input type='email'   placeholder="Enter your email here" className={'inputBox'}/> */}
