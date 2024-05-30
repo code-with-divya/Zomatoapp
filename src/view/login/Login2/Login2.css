@@ -1,0 +1,72 @@
+.first{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(70, 70, 70);
+    margin: 0%;
+  }
+
+  .log{
+    margin-left: -70%;
+    font-size: 30px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 300;
+    margin-top: -1px;
+    color: rgb(97, 97, 97);
+  
+  }
+  
+  .Contain{
+    height: 450px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 20px;
+    background-color: rgb(245, 239, 230);
+    width: 450.67px;
+    padding-bottom: 12px;
+  }
+
+  .mail{
+    height: 170px;
+    width: 170px;
+    margin-top: -20px;
+  }
+
+  .textbox{
+    height: 42px;
+    width: 380px;
+    font-size: large;
+    color: rgb(104, 104, 104);
+    padding-top: 8px;
+    padding-bottom: 6px;
+    padding-left: 9px;
+    border-radius: 7px;
+    border: 1px solid rgb(214, 212, 212);
+  }
+
+  .btn2{
+    padding: 10px 10px;
+    width: 400px;
+    font-size: large;
+    font-weight: 300;
+    background-color: rgb(240, 97, 97);
+    border-radius: 8px;
+    border: 1px solid rgb(240, 97, 97);
+    color: white;
+    font-family: Okra, Helvetica, sans-serif;
+  }
+
+  .paragraph2{
+    font-size: 17px;
+    font-family: Okra, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 24px;
+    margin-top: 45px;
+    color: rgb(130, 130, 130);
+  }
+  
+  .create2{
+    text-decoration: none;
+    color: rgb(234, 126, 126);
+  }

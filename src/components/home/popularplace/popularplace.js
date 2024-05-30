@@ -1,7 +1,7 @@
 import newxtarrow from './nextarrow.png'
 import './popularplace.css'
 
-export default function Popularplace() {
+export default function Popularplace(pimg) {
     return (
         <>
         <section className='poplursection'>
@@ -14,21 +14,21 @@ export default function Popularplace() {
                         <h6>Baner</h6>
                         <p>642 places</p>
                     </div>
-                    <img id='parrow' src={newxtarrow} />
+                    <img id='parrow' src={pimg.narrow} />
                 </div>
                 <div className='populardiv'>
                     <div className='divpcontent' >
                         <h6>Viman Nagar</h6>
                         <p>625 places</p>
                     </div>
-                    <img id='parrow' src={newxtarrow} />
+                    <img id='parrow' src={pimg.narrow} />
                 </div>
                 <div className='populardiv'>
                     <div className='divpcontent' >
                         <h6>Hinjwadi</h6>
                         <p>1241 places</p>
                     </div>
-                    <img id='parrow' src={newxtarrow} />
+                    <img id='parrow' src={pimg.narrow} />
                 </div>
             </div>
 
@@ -38,21 +38,21 @@ export default function Popularplace() {
                         <h6>Koregoan Park</h6>
                         <p>231 places</p>
                     </div>
-                    <img id='parrow' src={newxtarrow} />
+                    <img id='parrow' src={pimg.narrow} />
                 </div>
                 <div className='populardiv'>
                     <div className='divpcontent' >
                         <h6>Wakad</h6>
                         <p>625 places</p>
                     </div>
-                    <img id='parrow' src={newxtarrow} />
+                    <img id='parrow' src={pimg.narrow} />
                 </div>
                 <div className='populardiv'>
                     <div className='divpcontent' >
                         <h6>Kothrud</h6>
                         <p>1241 places</p>
                     </div>
-                    <img id='parrow' src={newxtarrow} />
+                    <img id='parrow' src={pimg.narrow} />
                 </div>
             </div>
 
@@ -62,21 +62,21 @@ export default function Popularplace() {
                         <h6>Kalayani Nagar</h6>
                         <p>155 places</p>
                     </div>
-                    <img id='parrow' src={newxtarrow} />
+                    <img id='parrow' src={pimg.narrow} />
                 </div>
                 <div className='populardiv'>
                     <div className='divpcontent' >
                         <h6>Kharadi</h6>
                         <p>800 places</p>
                     </div>
-                    <img id='parrow' src={newxtarrow} />
+                    <img id='parrow' src={pimg.narrow} />
                 </div>
                 <div className='populardiv'>
                     <div className='divpcontent' >
                         <h6>Pimple Saudagar</h6>
                         <p>1241 places</p>
                     </div>
-                    <img id='parrow' src={newxtarrow} />
+                    <img id='parrow' src={pimg.narrow} />
                 </div>
             </div>
         </section>
