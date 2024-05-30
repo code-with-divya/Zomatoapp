@@ -37,7 +37,5 @@ export function Resto() {
 
  );
 }
-export default Resto;
-
 
 
