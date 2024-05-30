@@ -33,3 +33,19 @@
     height: 20px;
     width: 20px;
 }
+
+/* show hide */
+.faq-answer {
+    display: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0;
+    font-size: 16px;
+
+}
+
+.showdiv {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 0;
+    font-size: 16px;
+}

@@ -7,7 +7,7 @@ import Home from './view/home/home';
 import { Login } from './view/login/login';
 import { Signup } from './view/signup/signup';
 import { Login2 } from './view/login/Login2/Login2';
-import { Investor } from './view/Investor/Investor';
+// import { Investor } from './view/Investor/investor';
 
 
 
@@ -17,10 +17,10 @@ const routes=createBrowserRouter([
       element:<Home/>
   
   },
-  {
-      path:'/investor',
-      element:<Investor/>
-  },
+  // {
+  //     path:'/investor',
+  //     element:<Investor/>
+  // },
   // {
   //     path:"/Resto",
   //     element:<resto/>
