@@ -16,7 +16,7 @@ const routes=createBrowserRouter([
   
   },
   {
-      path:'/Investor',
+      path:'/investor',
       element:<Investor/>
   },
   // {
