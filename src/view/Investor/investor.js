@@ -1,16 +1,9 @@
 
 import './Investor.css';
 import {Navbar} from '../../components/Investor/Navbar/Navbar';
-import {Div} from '../../components/Investor/Div/Div';
-import {Div2} from '../../components/Investor/Div2/Div2'
-import {Div3} from '../../components/Investor/Div3/Div3'
-import logo from '../../components/Investor/img/logo1.webp'
-import {Div4} from '../../components/Investor/Div4/Div4'
-import {Card} from '../../components/Investor/Card/Card';
 import img from '../../components/Investor/img/food.avif'
 import img1 from '../../components/Investor/img/scooter.avif'
 import img2 from '../../components/Investor/img/plastic.avif'
-import vlog1 from '../../components/Investor/img/vlog1.png'
 import zomato_logo from '../../components/Investor/img/zomato_logo1.avif'
 import hyper_logo from '../../components/Investor/img/hyper_logo.webp'
 import feeding_india from '../../components/Investor/img/feeding_india.webp'
@@ -26,7 +19,7 @@ import arro from '../../components/Investor/img/arro.webp'
 
 
 
-export function Investor(propes){
+export function Investor(){
 
     return(
 
@@ -39,18 +32,18 @@ export function Investor(propes){
                 <div class="head">
 
                     <h1>Better food for more people</h1>
-                    <img src={propes.zomato_logo} alt="Zomato Logo" class="logo3" />
-                    <img src={propes.hyper_logo} alt="hyper Logo" class="logo1" />
+                    <img src={zomato_logo} alt="Zomato Logo" class="logo3" />
+                    <img src={hyper_logo} alt="hyper Logo" class="logo1" />
 
                     <hr />
 
                     <h1>Instant commerce indistinguishable from magic</h1>
-                    <img src={propes.blinkit} alt="blinkit" class="logo1" />
+                    <img src={blinkit} alt="blinkit" class="logo1" />
 
                     <hr />
 
                     <h1>Make India malnutrition free</h1>
-                    <img src={propes.feeding_india} alt="feeding india" class="logo1" />
+                    <img src={feeding_india} alt="feeding india" class="logo1" />
 
                 </div>
 
@@ -60,10 +53,10 @@ export function Investor(propes){
                     <h1 className='H1'><b>Company Overview</b></h1>
                     <div className='box'>
                          <div className='img_color'>
-                        <img src={propes.logo1} alt="blinkit" class="logo2" />
+                        <img src={logo1} alt="blinkit" class="logo2" />
                         </div>
                         <h3><b>Presentation</b></h3>
-                        <img src={propes.arro} alt='arrow' className='arrow'/>
+                        <img src={arro} alt='arrow' className='arrow'/>
 
                         <div>
                             <h1 className='H1'><b>Q4FY24 results</b></h1>
@@ -75,29 +68,29 @@ export function Investor(propes){
                      
                         <div className='box1'>
                         <div className='img_color'>
-                        <img src={propes.logo2} alt="blinkit" class="logo2" />
+                        <img src={logo2} alt="blinkit" class="logo2" />
                         </div>
                         <h3><b>Shareholders' Letter</b></h3>
-                        <img src={propes.arro} alt='arrow' className='arrow'/>
+                        <img src={arro} alt='arrow' className='arrow'/>
                        
                     
                          </div>
                          
                          <div className='box2'>
                          <div className='img_color'>
-                        <img src={propes.logo3} alt="blinkit" class="logo2" />
+                        <img src={logo3} alt="blinkit" class="logo2" />
                         </div>
                         <h3><b>Earnings Call Replay</b></h3>
-                        <img src={propes.arro} alt='arrow' className='arrow'/>
+                        <img src={arro} alt='arrow' className='arrow'/>
 
                         </div>
 
                         <div className='box3'>
                         <div className='img_color'>
-                        <img src={propes.logo4} alt="blinkit" class="logo2" />
+                        <img src={logo4} alt="blinkit" class="logo2" />
                         </div>
                         <h3><b>Earnings Call Transcript</b></h3>
-                        <img src={propes.arro} alt='arrow' className='arrow'/>
+                        <img src={arro} alt='arrow' className='arrow'/>
 
                          </div>
 
@@ -122,7 +115,7 @@ export function Investor(propes){
                 </div>
 
                 <div>
-                    <img src={propes.img} className='zomato' />
+                    <img src={img} className='zomato' />
                 </div>
                 <div className='info2'>Q4FY24</div>
                 <hr />
@@ -147,7 +140,7 @@ export function Investor(propes){
                     </div>
 
                     <div>
-                        <img src={propes.img1} className='blinkit' />
+                        <img src={img1} className='blinkit' />
                     </div>
                     <div className='info2'>Q4FY24</div><br />
                     <hr />
@@ -177,7 +170,7 @@ export function Investor(propes){
                 </div>
 
                 <div>
-                    <img src={propes.img2} className='hyper' />
+                    <img src={img2} className='hyper' />
                 </div>
                 <div className='info2'>Q4FY24</div>
                 <hr className='hr1'/>
@@ -203,7 +196,7 @@ export function Investor(propes){
                     </div>
 
                     <div>
-                        <img src={propes.img3} className='blinkit' />
+                        <img src={img3} className='blinkit' />
                     </div>
                     <div className='info2'>Q4FY24</div><br />
                     <hr />
@@ -229,20 +222,20 @@ export function Investor(propes){
       <div className='c2'>
      <div className='c1'>
 
-        <img src={propes.img} className='image'/>
+        <img src={img} className='image'/>
         <h1><b>Feeding India</b></h1>
         <p className='p3'>A not-for-profit organisation, designing<br/> interventions to reduce hunger and<br/> malnutrition among underserved<br/> communities in India</p>
 
      </div>
 
      <div className='c3'>
-     <img src={propes.img1} className='image'/>
+     <img src={img1} className='image'/>
         <h1><b>Net zero emissions</b></h1>
         <p className='p3'>Starting FY24, we have taken on a goal<br/> to achieve Net Zero emissions across<br/> Zomato’s food delivery value chain by<br/> 2033</p>
      </div>
      
      <div className='c4'>
-     <img src={propes.img2} className='image'/>
+     <img src={img2} className='image'/>
         <h1><b>Reducing plastic waste</b></h1>
         <p className='p3'>Trying to reduce Zomato’s plastic waste by ensuring completely plastic neutral deliveries since April 2022</p>
      </div>
