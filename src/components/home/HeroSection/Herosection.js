@@ -1,5 +1,4 @@
 import './Herosection.css'
-import Zomatologo from './img/Zomatologo.avif'
 
 function Herosection(images){
     return(

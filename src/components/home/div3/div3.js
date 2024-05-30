@@ -1,7 +1,4 @@
 import './div3.css'
-import dining from './img/dining.avif'
-import nightclub from './img/nightclubs.avif'
-import orderonline from './img/orderonline.avif'
 
 export default function Div3(dimg) {
     return (

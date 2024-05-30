@@ -1,5 +1,4 @@
 import './explore.css';
-import downarrow from './downarrow.png'
 
 export default function Explore(eimg){
     return(

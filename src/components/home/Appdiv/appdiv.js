@@ -1,7 +1,4 @@
 import './appdiv.css'
-import mobile from './img/mobile.avif'
-import Applestore from '../footer/img/Applestore.webp'
-import playstore from '../footer/img/playstore.webp'
 
 export default function Appdiv(images) {
 
