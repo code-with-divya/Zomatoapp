@@ -1,17 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Header from "./components/Addrestaurant/Addrestoheader/Header";
+import MainContent from './components/Addrestaurant/middles/MainContent';
+import Steps from './components/Addrestaurant/steps/Steps';
+import Partner from './components/Addrestaurant/whypattern/Partner';
+import Listed from './components/Addrestaurant/listed/Listed';
+// import Product from './components/Addrestaurant/our/Product';
+import Sign from './components/Addrestaurant/Singup/Sing';
+// import Happy from './components/Addrestaurant/Happy/Happy';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+    <>
+    <Header/>
+    <MainContent/>
+    <Partner/>
+    <Steps/>
+    <Listed/>
+    {/* <Product/> */}
+    <Sign/> 
+    {/* <Happy/> */}
+  
+    </>
+)
+
+
+    
