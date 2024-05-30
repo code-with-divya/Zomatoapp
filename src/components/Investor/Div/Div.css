@@ -1,0 +1,109 @@
+
+.color{
+    background-color: rgb(227, 70, 70);
+    height: 700px;
+    width: 1500px;
+    display: flex;
+    font-family: Okra, Helvetica, sans-serif;
+    
+    
+}
+.head{
+    color: white;
+    font-size: 15px;
+    margin-left: 200px;
+    margin-top: 150px;
+    font-size: 1.6rem;
+   
+   
+ 
+}
+.logo1{
+     margin-right: 30px;
+     height: 25px;
+     margin-left: 20px;
+}
+
+
+
+.card{
+    border: 1px solid black;
+    height: 570px;
+    width: 450px;
+    margin-left: 30px;
+     margin-top: 100px;
+    border-radius: 7%;
+}
+h1{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 30px;
+}
+.H1{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 25px; 
+}
+.box{
+    border: 1px solid rgb(221, 211, 211);
+    height: 80px;
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.box1{
+    border: 1px solid rgb(221, 211, 211);
+    height: 80px;
+    width: 400px;
+    border-radius: 20px;
+  
+    margin-top: 30px;
+}
+.box2{
+    border: 1px solid rgb(221, 211, 211);
+    height: 80px;
+    width: 400px;
+    border-radius: 20px;
+  
+    margin-top: 20px;
+}
+.box3{
+    border: 1px solid rgb(221, 211, 211);
+    height: 80px;
+    width: 400px;
+    border-radius: 20px;
+  
+    margin-top: 20px;
+}
+.logo2{
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+h3{
+    margin-left: 85px;
+    margin-top: -47px;
+    font-size: 19px;
+}
+.see{
+    color: red;
+    margin-left: 350px;
+    margin-top: -35px;
+}
+.arrow{
+    height: 30px;
+    margin-left: 320px;
+    margin-top: -70px;
+}
+.img_color{
+    background-color: rgb(236, 231, 231);
+    height: 78px;
+    width: 70px;
+    border-radius: 20px 0px 0px 20px;
+}
+.logo3{
+    height: 55px;
+    margin-left: 10px;
+}

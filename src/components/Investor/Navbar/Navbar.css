@@ -4,22 +4,26 @@
 }
 .nav-item{
  font-size: 20px;
+ margin-top: 30px;
     
 }
 .navbar-nav{
    
 }
 .navbar-brand{
+    margin-top: 30px;
     
 }
 .logo{
-    background-color: rgb(10, 9, 9);
+    
     height: 30px;
     margin-left: 300px;
+    margin-top: 30px;
 
 }
 
 .navv{
+    height: 60px;
     background-color:white;
     position: fixed;
     top: 0%;
