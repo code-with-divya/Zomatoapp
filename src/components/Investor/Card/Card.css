@@ -1,0 +1,45 @@
+.food{
+    border: 1px solid black;
+    height: 200px;
+    width: 330px;
+    margin-left: 40px;
+    margin-top: 40px;
+   
+}
+.food1{
+    border: 1px solid black;
+    height: 200px;
+    width: 330px;
+  
+    margin-top: 40px;
+   
+}
+.food2{
+    border: 1px solid black;
+    height: 200px;
+    width: 330px;
+  
+    margin-top: 40px;
+   
+}
+.image1{
+   
+     height: 200px;
+    width: 330px;
+   
+   
+}
+.res{
+    margin-top: 0px;
+    margin-left: -0px;
+}
+.r1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.apr{
+    color: grey;
+}
+.size{
+       margin-top: 200px;
+}
