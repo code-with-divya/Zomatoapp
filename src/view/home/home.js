@@ -8,6 +8,8 @@ import Popularplace from "../../components/home/popularplace/popularplace"
 
 // img hero
 import Zomatologo from '..//../components/home/HeroSection/img/Zomatologo.avif';
+import location from '..//../components/home/HeroSection/locationicon.png'
+import search from '..//../components/home/HeroSection/searchicon.png'
 
 // img div3
 import dining from '../../components/home/div3/img/dining.avif'
@@ -41,7 +43,7 @@ import worldicon from '..//../components/home/footer/img/worldicon.png'
 export default function Home(){
     return(
         <>
-        <Herosection logo={Zomatologo}/>
+        <Herosection logo={Zomatologo} search={search} location={location} />
         <Div3 img1={orderonline} img2={dining} img3={nightclub} />
         <Collectiondiv arrow={rightarrow}/>
         <Popularplace narrow={nextarrow} />

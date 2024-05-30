@@ -84,9 +84,9 @@
 	
 }
 
-#location_icon{
-	color: rgb(239,79,95);
-	margin-top: -4px;
+.locationicon{
+	height: 20px;
+	width: 20px;
 }
 
 #search_icon{

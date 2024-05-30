@@ -1,5 +1,6 @@
 import './Herosection.css'
 
+
 function Herosection(images){
     return(
         <>
@@ -20,14 +21,14 @@ function Herosection(images){
 				<img src ={images.logo} alt = "Zomato Logo" class = "hero__section_logo" />
 				<h1 class = "hero__section_heading">Discover the best food & drinks in Pune</h1>
 				<div class = "hero__section_container_input">
-					<i class="fa-sharp fa-solid fa-location-dot" id = "location_icon"></i>
+					<img src={images.location} className='locationicon'/>
 					<select class = "hero__section_input_location">
 						<option>Pune</option>
 						<option>Mumbai</option>
 						<option>Banglore</option>
 						<option>Delhi</option>
 					</select>
-					<i class="fa-solid fa-magnifying-glass" id = "search_icon"></i>
+					<img src={images.search} className='locationicon'/>
 					<input class = "hero__section_input_search" type = "text" placeholder = "Search for a restaurant, cuisine or a dish" />
 				</div>
 			</div>

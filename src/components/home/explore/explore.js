@@ -18,7 +18,7 @@ export default function Explore(eimg){
             </div>
             </div>
             <div className='explorediv'>
-                <p >Popular cuisines near me</p>
+                <p >Popular restaurant types near me</p>
                 <img className='exploreimg' src={eimg.darrow} />
                 <div class="faq-answer" id="faqdiv">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat id quidem excepturi veritatis nemo
@@ -26,7 +26,7 @@ export default function Explore(eimg){
             </div>
             </div>
             <div className='explorediv'>
-                <p >Popular cuisines near me</p>
+                <p >Cities We Deliver To</p>
                 <img className='exploreimg' src={eimg.darrow} />
                 <div class="faq-answer" id="faqdiv">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat id quidem excepturi veritatis nemo
