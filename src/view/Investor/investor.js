@@ -1,18 +1,19 @@
 
 import './Investor.css';
-import {Navbar} from '../../components/Investor/Navbar/Navbar';
-import img from '../../components/Investor/img/food.avif'
-import img1 from '../../components/Investor/img/scooter.avif'
-import img2 from '../../components/Investor/img/plastic.avif'
-import zomato_logo from '../../components/Investor/img/zomato_logo1.avif'
-import hyper_logo from '../../components/Investor/img/hyper_logo.webp'
-import feeding_india from '../../components/Investor/img/feeding_india.webp'
-import blinkit from '../../components/Investor/img/blinkit.webp'
-import logo1 from '../../components/Investor/img/logo1.webp'
-import logo2 from '../../components/Investor/img/logo2.webp'
-import logo3 from '../../components/Investor/img/logo3.webp'
-import logo4 from '../../components/Investor/img/logo4.webp'
-import arro from '../../components/Investor/img/arro.webp'
+import {Navbar} from '../../components/Navbar/Navbar';
+import img from '../Investor/img/food.avif'
+import img1 from '../Investor/img/scooter.avif'
+import img2 from '../Investor/img/plastic.avif'
+import img3 from './img/blinkit.webp'
+import zomato_logo from '../Investor/img/zomato_logo1.avif'
+import hyper_logo from '../Investor/img/hyper_logo.webp'
+import feeding_india from '../Investor/img/feeding_india.webp'
+import blinkit from '../Investor/img/blinkit.webp'
+import logo1 from '../Investor/img/logo1.webp'
+import logo2 from '../Investor/img/logo2.webp'
+import logo3 from '../Investor/img/logo3.webp'
+import logo4 from '../Investor/img/logo4.webp'
+import arro from '../Investor/img/arro.webp'
 
 
 // import {Card } from '../../components/Investor/Card/Card';
