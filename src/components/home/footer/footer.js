@@ -1,24 +1,14 @@
 import './footer.css'
-import Applestore from './img/Applestore.webp'
-import playstore from './img/playstore.webp'
-import ZomatologoBlack from './img/ZomatologoBlack.avif'
-import indianflag from './img/indianflag.webp'
-import facebook from './img/facebook.png'
-import instagramicon from './img/instagramicon.png'
-import twittericons from './img/twittericons.png'
-import youtube from './img/youtube.png'
-import linkinicons from './img/linkedinicons.png'
-import worldicon from './img/worldicon.png'
 
-export default function Footer(){
+export default function Footer(fimg){
     return(
         //  This is for footer section 
 		<footer class = "footer__container">
 			<div class = "footer_section1">
-				<img src ={ZomatologoBlack} alt = "zomato logo" />
+				<img src ={fimg.zblack} alt = "zomato logo" />
 				<div class = "section1__button_container">
 					<button>
-						<img id='flagimg' src ={indianflag} alt = "Indian Flag"/>
+						<img id='flagimg' src ={fimg.flag} alt = "Indian Flag"/>
 						<select className='countryselect' >
 							<option>India</option>
 							<option>United States</option>
@@ -29,7 +19,7 @@ export default function Footer(){
 						</select>
 					</button>
 					<button>
-					<img id='worldimg' src ={worldicon} alt = "Indian Flag"/>
+					<img id='worldimg' src ={fimg.wicon} alt = "Indian Flag"/>
 						<select className='Flanguage' >
 							<option>English</option>
 							<option>Español</option>
@@ -90,14 +80,14 @@ export default function Footer(){
 				<div class = "link_container">
 					<h5>Social Links</h5>
 					<div class = "social_media_icon_buttons">
-						<img class='iconimgs' src={linkinicons} />
-						<img class='iconimgs' src={instagramicon} />
-						<img class='iconimgs' src={twittericons} />
-						<img class='iconimgs' src={youtube} />
-						<img class='iconimgs' src={facebook} />
+						<img class='iconimgs' src={fimg.licon} />
+						<img class='iconimgs' src={fimg.iicon} />
+						<img class='iconimgs' src={fimg.ticon} />
+						<img class='iconimgs' src={fimg.utub} />
+						<img class='iconimgs' src={fimg.ficon} />
 						<div class = "social_media_logos">
-							<img src = {Applestore} alt = "Apple store" />
-							<img src ={playstore} alt = "Play store" id = "img2"/>
+							<img src = {fimg.play} alt = "Apple store" />
+							<img src ={fimg.apple} alt = "Play store" id = "img2"/>
 						</div>
 					</div>
 				</div>

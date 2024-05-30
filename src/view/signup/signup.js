@@ -1,4 +1,4 @@
-import './sign.css'
+import './signup.css'
 import google from './google.png'
 
 export function Signup(props){

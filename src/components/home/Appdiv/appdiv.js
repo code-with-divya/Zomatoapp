@@ -3,13 +3,13 @@ import mobile from './img/mobile.avif'
 import Applestore from '../footer/img/Applestore.webp'
 import playstore from '../footer/img/playstore.webp'
 
-export default function Appdiv() {
+export default function Appdiv(images) {
 
     return (
         <>
         <div className='appmain'>
             <div>
-                <img className='mobile' src={mobile} />
+                <img className='mobile' src={images.appimg} />
             </div>
             <div>
                 <h2 className='apph'>Get the Zomato app</h2>
@@ -34,8 +34,8 @@ export default function Appdiv() {
             <div >
                 <p className='apppara'>Download App from</p>
                 <div className='divapp'>
-                    <img className='appimg' src={playstore}/>
-                    <img className='appimg' src={Applestore}/>
+                    <img className='appimg' src={images.play}/>
+                    <img className='appimg' src={images.apple}/>
                 </div>
             </div>
 
