@@ -1,4 +1,4 @@
-import './Login.css'
+import './login.css'
 import mail from './mail.png'
 import google from './google.png'
 
