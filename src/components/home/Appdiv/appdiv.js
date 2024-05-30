@@ -7,7 +7,7 @@ export default function Appdiv(images) {
 
     return (
         <>
-        <div className='appmain'>
+        <div className='appmain' id='appinstall'>
             <div>
                 <img className='mobile' src={images.appimg} />
             </div>

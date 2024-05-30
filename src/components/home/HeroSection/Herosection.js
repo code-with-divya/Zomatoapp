@@ -7,12 +7,12 @@ function Herosection(images){
         <section class = "hero__section">
 			<header>
 				<nav class = "navbar">
-					<a href = "#">Get the App</a>
+					<a href = "#appinstall">Get the App</a>
 					<div class = "navbar__menu_container">
-						<a href = "#" class = "link" >Investor Relations</a>
+						<a href = "/Investor" class = "link" >Investor Relations</a>
 						<a href = "#" class = "link" >Add Restaurants</a>
-						<a href = "#" class = "link" >Login</a>
-						<a href = "#" class = "link" >Sign Up</a>
+						<a href = "/log" class = "link" >Login</a>
+						<a href = "/signup" class = "link" >Sign Up</a>
 						<a href = "#" class = "user_icon"><i class="fa-solid fa-user"></i></a>
 					</div>
 				</nav>
