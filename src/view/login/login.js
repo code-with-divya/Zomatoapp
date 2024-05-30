@@ -10,9 +10,9 @@ export function Login(props){
         <div className='Container'>
         <p className='log'>Login</p>
 
-        <div className='opt'>
+        <div className='optn'>
 
-        <select className='slt'>
+        <select className='slte'>
 
      <option>+ 91</option><br/>
        <option>+ 93</option><br/>
@@ -26,11 +26,11 @@ export function Login(props){
           </select>
           
          
-          <input type='text' placeholder='Phone' className='inputBox'/>
+          <input type='text' placeholder='Phone' className='inputBoxtwo'/>
 
           </div><br></br><br></br>
 
-          <button type='submit' className='btn'>Send One Time Password</button><br></br>
+          <button type='submit' className='bttn'>Send One Time Password</button><br></br>
 
           <p className='or'>or</p>
 

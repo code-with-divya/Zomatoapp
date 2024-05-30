@@ -12,7 +12,7 @@ export function Signup(props){
 
                 <input type='mail' placeholder='Email' className='textbox' /><br></br>
 
-                <input type='checkbox'className='check'/><span className='check1'>I agree to Zomato's </span> <span className='check2'> Terms of Service, Privacy Policy </span><span className='check1'> and </span> <span className='check2'> Content Policies</span>
+                <input type='checkbox'className='check'/><span className='check1'> I agree to Zomato's </span> <span className='check2'> Terms of Service, Privacy Policy </span><span className='check1'> and </span> <span className='check2'> Content Policies</span>
                   
                 <button type='submit' className='btn3'> Create account</button><br></br>
 
