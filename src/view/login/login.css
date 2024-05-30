@@ -7,7 +7,7 @@
     margin: 0%;
   }
   
-  .slt{
+  .slte{
     height: 29px;
     padding: 5px 10px;
     font-size: large;
@@ -17,8 +17,8 @@
     /* padding-left: px; */
   }
   
-  .opt{
-    height: 32px;
+  .optn{
+    height: 42px;
     margin: 0px 20px;
     padding: 5px 0px;
     border-radius: 7px;
@@ -45,7 +45,7 @@
     margin-top: 10px;
   }
   
-  .inputBox {
+  .inputBoxtwo {
     height: 28px;
     width: 250px;
     font-size: large;
@@ -56,7 +56,7 @@
     color: rgb(97, 97, 97);
   }
   
-  .btn{
+  .bttn{
     padding: 10px 10px;
     width: 440px;
     font-size: large;
