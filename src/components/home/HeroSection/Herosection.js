@@ -10,7 +10,7 @@ function Herosection(images){
 					<a href = "#appinstall">Get the App</a>
 					<div class = "navbar__menu_container">
 						<a href = "/Investor" class = "link" >Investor Relations</a>
-						<a href = "#" class = "link" >Add Restaurants</a>
+						<a href = "/Resto" class = "link" >Add Restaurants</a>
 						<a href = "/log" class = "link" >Login</a>
 						<a href = "/signup" class = "link" >Sign Up</a>
 						<a href = "#" class = "user_icon"><i class="fa-solid fa-user"></i></a>
