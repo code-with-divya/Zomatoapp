@@ -6,9 +6,14 @@ import Steps from './../steps/Steps';
 import Partner from './../Whypartner/Partner';
 import Listed from './../listed/Listed';
 import Sign from './../Signs/Sing';
+import World from './../middles/image/greenstik.png';
+import note from './../steps/image/note.png';
+import scoty from './../steps/image/scoty.webp';
+import house from './../steps/image/resiveorder.webp';
+import laptop from './../steps/image/laptop.avif';
 
 
-export default function Resto (){
+export function Restorant(){
 
     return (
       <>
@@ -22,7 +27,7 @@ export default function Resto (){
 
      
     </>
-    )
+    );
 }
 
 
