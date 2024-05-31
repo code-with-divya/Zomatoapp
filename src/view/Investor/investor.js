@@ -1,5 +1,5 @@
 
-import './Investor.css';
+import './investor.css';
 import {Navbar} from '../../components/Investor/Navbar/Navbar';
 import {Div} from '../../components/Investor/Div/Div';
 import {Div2} from '../../components/Investor/Div2/Div2'
