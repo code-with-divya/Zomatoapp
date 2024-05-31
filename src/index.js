@@ -7,12 +7,9 @@ import Home from './view/home/home';
 import { Login } from './view/login/login';
 import { Signup } from './view/signup/signup';
 import { Login2 } from './view/login/Login2/Login2';
-
-import  {Resto}  from './view/addresto/Resto';
-// import { Investor } from './view/Investor/investor';
-
 import { Investor } from './view/Investor/investor';
-import Resto from './view/addresto/Resto';
+import { Restorant } from './view/addresto/Resto';
+
 
 
 
@@ -29,7 +26,7 @@ const routes=createBrowserRouter([
   },
   {
       path:"/Resto",
-      element:<Resto/>
+      element:<Restorant/>
   },
   {
       path:'/log',
