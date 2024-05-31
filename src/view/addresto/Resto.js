@@ -13,13 +13,13 @@ import Carousal from '../Carousal/Carousal';
 
 
 
-export function Resto() {
+ export function Resto() {
   return (
   <>
 
     
       <Header logo={background} />
-       <MainContent imgtick={greenstick} /> 
+      <MainContent imgtick={greenstick} /> 
       <Partner  img={World} img1={house} img2={order}/>
       <Steps image={note} image1={scoty} image2={order}/>
       <Listed />
@@ -29,13 +29,11 @@ export function Resto() {
 
       {/* <Carousal/> */}
 
-    
-    
-
     </>
 
 
  );
 }
+
 
 
